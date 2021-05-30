@@ -31,3 +31,4 @@ jobs:
           name: publish to mulsoft
           command: |
             mvn -s settings.xml clean deploy -DmuleDeploy\-DMULE_ENV=${MULE_ENV}\-DMULE_VERSION=${app.runtime}\-DMULE_APP_NAME=${MULE_APP_NAME}\ULE_WORKER_TYP=${MULE_WORKER_TYP}\-DMULE_WORKER=${MULE_WORKER}\-DMULE_USERNAME=${MULE_USERNAME}\-Dcentral_password=${central_password}\-Dmule_repo_user=${mule_repo_user}\-Dmule_repo_pass={mule_repo_pass}
+
